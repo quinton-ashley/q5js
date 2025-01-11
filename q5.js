@@ -3745,7 +3745,7 @@ Q5.renderers.webgpu.canvas = ($, q) => {
 	$.strokeWeight = (v) => ($._strokeWeight = Math.abs(v));
 
 	const MAX_TRANSFORMS = 1e7, // or whatever maximum you need
-		MATRIX_SIZE = 16, // 4x4 matrix
+		MATRIX_SIZE = 16, // 4×4 matrix
 		transforms = new Float32Array(MAX_TRANSFORMS * MATRIX_SIZE);
 
 	let matrix,
@@ -3755,7 +3755,7 @@ Q5.renderers.webgpu.canvas = ($, q) => {
 	// tracks if the matrix has been modified
 	$._matrixDirty = false;
 
-	// initialize with a 4x4 identity matrix
+	// initialize with a 4×4 identity matrix
 	// prettier-ignore
 	matrices.push([
 		1, 0, 0, 0,
@@ -3874,10 +3874,10 @@ Q5.renderers.webgpu.canvas = ($, q) => {
 		else m = args;
 
 		if (m.length == 9) {
-			// convert 3x3 matrix to 4x4 matrix
+			// convert 3×3 matrix to 4×4 matrix
 			m = [m[0], m[1], 0, m[2], m[3], m[4], 0, m[5], 0, 0, 1, 0, m[6], m[7], 0, m[8]];
 		} else if (m.length != 16) {
-			throw new Error('Matrix must be a 3x3 or 4x4 array.');
+			throw new Error('Matrix must be a 3×3 or 4×4 array.');
 		}
 
 		// overwrite the current transformation matrix

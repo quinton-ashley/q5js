@@ -291,7 +291,7 @@ circle(100, 50, 80);
 	 * 
 	 * Start using q5 by running this function!
 	 *
-	 * If this function is not run by the user, a 200x200 canvas will be
+	 * If this function is not run by the user, a 200×200 canvas will be
 	 * created automatically before the draw loop starts. Although in q5 
 	 * WebGPU, this function must be run before running other q5 functions.
 	 * @param {number} [w] width of the canvas, default is windowWidth
@@ -586,7 +586,7 @@ function draw() {
 	/** ⬜️
 	 * Applies a transformation matrix.
 	 *
-	 * Accepts a 3x3 or 4x4 matrix as either an array or multiple arguments.
+	 * Accepts a 3×3 or 4×4 matrix as either an array or multiple arguments.
 	 * @param {number} a horizontal scaling
 	 * @param {number} b horizontal skewing
 	 * @param {number} c vertical skewing

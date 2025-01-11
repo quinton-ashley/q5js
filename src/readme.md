@@ -168,7 +168,7 @@ For convenience, if no font is loaded before `text` is run, then q5's default MS
 
 ![YaHei msdf texture](https://q5js.org/fonts/sans-serif.png)
 
-This 512x512 msdf texture (207kb) was made with the [Microsoft YaHei](https://learn.microsoft.com/en-us/typography/font-list/microsoft-yahei) font and stores every character visible on a standard English keyboard, letters with diacritics (accents) used in European languages, and mathematical symbols.
+This 512×512 msdf texture (207kb) was made with the [Microsoft YaHei](https://learn.microsoft.com/en-us/typography/font-list/microsoft-yahei) font and stores every character visible on a standard English keyboard, letters with diacritics (accents) used in European languages, and mathematical symbols.
 
 ```
 !"#$%&'()\*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^\_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥©®°²³´·¹º¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ‘’“”ΑαΒβΓγΔδΕεΛλΠπΣσΩω∴∵─│┌┐└┘├┤┬┴┼▀▄█▌▐▓▒░←↑→↓↔↕↖↗↘↙«»µτΦΘ∞≡±≈∙√ⁿ
@@ -223,7 +223,7 @@ You can also use `createTextImage` and display it with `textImage`.
 
 ### Lightweight Use
 
-For super lightweight use load <https://q5js.org/fonts/YaHei-256-msdf.json>, which has a limited character set of english letters and some common punctuation symbols that completely fill in a 256x256 texture (73kb).
+For super lightweight use load <https://q5js.org/fonts/YaHei-256-msdf.json>, which has a limited character set of english letters and some common punctuation symbols that completely fill in a 256×256 texture (73kb).
 
 ```
 !@'",-.0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
